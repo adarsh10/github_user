@@ -1,0 +1,164 @@
+::-webkit-scrollbar
+{
+    width: 6px;  /* for vertical scrollbars */
+    height: 6px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+    background: rgba(255, 255, 255, 1);
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: rgb(84, 85, 99);
+}
+
+body{
+    font-family: Lato;
+    color: #fff;
+    background-attachment: fixed;
+    background: rgba(234,247,52,1);
+    background: -moz-linear-gradient(-45deg, rgba(234,247,52,1) 0%, rgba(152,245,12,1) 27%, rgba(24,189,240,1) 82%, rgba(39,179,230,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(234,247,52,1)), color-stop(27%, rgba(152,245,12,1)), color-stop(82%, rgba(24,189,240,1)), color-stop(100%, rgba(39,179,230,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(234,247,52,1) 0%, rgba(152,245,12,1) 27%, rgba(24,189,240,1) 82%, rgba(39,179,230,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(234,247,52,1) 0%, rgba(152,245,12,1) 27%, rgba(24,189,240,1) 82%, rgba(39,179,230,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(234,247,52,1) 0%, rgba(152,245,12,1) 27%, rgba(24,189,240,1) 82%, rgba(39,179,230,1) 100%);
+    background: linear-gradient(135deg, rgba(234,247,52,1) 0%, rgba(152,245,12,1) 27%, rgba(24,189,240,1) 82%, rgba(39,179,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf734', endColorstr='#27b3e6', GradientType=1 );
+}
+
+[type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after{
+    background-color: #2ec866;
+    border-color: #2ec866;
+}
+
+label{
+    color: #fff;
+}
+
+.ascentGreen{
+    background: #2ec866;
+}
+
+.correct{
+    border-radius: 3px; 
+    padding: 2px;
+    font-weight: bold;
+    background: #028d38;
+}
+.incorrect{
+    border-radius: 3px; 
+    padding: 2px;
+    font-weight: bold;
+    background: #FF533A;
+}
+.label{
+    font-weight: bold;
+    padding: 2px;
+    background: transparent;
+}
+.sectionOne {
+    position: relative;
+    height: 100vh;
+    padding: 24px;
+    text-align: center;
+
+    background: linear-gradient(rgba(24, 26, 45, 0.4), rgba(0, 0, 0, 0.8)) no-repeat center;
+    background-size: 100%;
+}
+
+.footerDiv {
+    color: #fff;
+    position: absolute;
+    width:100%;
+    padding: 1%;
+    bottom: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.45);
+}
+.nameModalBody{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    padding: 12px;
+}
+.customModal{
+    background: rgba(0, 0, 0, 0.68);
+    height: 320px;
+}
+
+#quizDiv{
+    color: #fff;
+}
+
+.optionDiv{
+    width: auto;
+    text-align: center;
+}
+
+.ques{
+    display: none;
+}
+
+.materialDot{
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background: #2ec866;
+}
+
+#resultDiv{
+    display: none; 
+    padding: 24px;
+    width: 50%;
+}
+
+.options{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+    margin: 4px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.optionBody{
+    position: absolute;
+    width: 100%;
+    top: 38%;
+}
+
+#userName{
+    width: 280px
+}
+
+#graphResult{
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+#pieChart{
+    margin-left: 41%;    
+}
+
+@media screen and (max-width: 768px) {
+    #userName{
+        width: 100%;    
+    }
+
+    #resultDiv{
+        display: none; 
+        padding: 0px;
+        width: 100%;
+    }
+    #pieChart{
+        margin-left: 36%;    
+    }
+
+}

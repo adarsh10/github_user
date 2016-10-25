@@ -1,0 +1,47 @@
+html, body{
+    font-family: Lato;
+    color: #fff;
+    background: #f0f0f0;
+}
+
+.mainContainer{
+	background: #5b5b76;
+	padding: 16px 0 0 0;
+}
+
+.subContainer{
+	background: #48485e;
+}
+
+.crossBtn{
+	position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px; 
+    color: #fff;
+    font-weight: bold;
+}
+
+#sortBy{
+	margin-top: -24px;
+	padding: 12px;
+	background: #373747;
+}
+
+.sortItem{
+	padding: 8px;
+}
+.sortItem:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.bottomLabel{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    background: #373747;
+    font-weight: bold;
+}

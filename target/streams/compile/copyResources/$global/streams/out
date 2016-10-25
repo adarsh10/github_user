@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/dodo/project/github_user/conf/application.conf,/home/dodo/project/github_user/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/dodo/project/github_user/conf/routes,/home/dodo/project/github_user/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/dodo/project/github_user/conf/logback.xml,/home/dodo/project/github_user/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/dodo/project/github_user/conf/application-prod.conf,/home/dodo/project/github_user/target/scala-2.11/classes/application-prod.conf)[0m
